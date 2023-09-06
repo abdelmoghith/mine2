@@ -1,0 +1,35 @@
+*{
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color:  hsl(212, 45%, 89%);
+}
+.cont{
+    width: 200px;
+    height: 320px;
+    background-color: white;
+    margin: 80px auto;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 200px auto ;
+    padding: 15px;
+
+}
+
+.up{
+    background-image: url(image-qr-code.png);
+    background-size: cover;
+    border-radius:10px ;
+}
+.down{
+    text-align: center;
+    
+}
+.para1{
+    font-size:  15px;
+    font-weight: bold;
+}
+.para2{
+    font-size:  11px;
+    opacity: 0.5;
+}
